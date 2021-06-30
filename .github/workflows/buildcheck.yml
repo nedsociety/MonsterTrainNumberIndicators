@@ -72,12 +72,12 @@ jobs:
 
       - name: Setup 3rd party libs
         run: >
-          msbuild MonsterTrainUnofficialTranslation.sln /t:Restore
+          msbuild MonsterTrainNumberIndicators.sln /t:Restore
           /p:RestorePackagesConfig=true /p:Configuration=Release
         working-directory: src
 
       - name: Build the solution
-        run: msbuild MonsterTrainUnofficialTranslation.sln /t:Rebuild /p:Configuration=Release
+        run: msbuild MonsterTrainNumberIndicators.sln /t:Rebuild /p:Configuration=Release
         working-directory: src
 
       - name: Upload the result
