@@ -1,6 +1,0 @@
-﻿
-카드
-
-1. CardFrameUI.spriteSelectors 를 뒤져서 CapacityMasterySpriteSelector를 찾고 SetActive(false)로 없앨 것
-2. CardStatUpgradeVFX.capacityUpgradeVFX[] 내용물을 전부 healStatUpgradeVFX의 복사본으로 대체
-   (parent는 아마 같게 만들어서 붙여야 할 거고, 대신 이동이 필요할듯)

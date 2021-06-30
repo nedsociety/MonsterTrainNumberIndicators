@@ -12,6 +12,12 @@ Then, open `SteamAppsDir.props` file at the root of the repository (not this dir
 
 A successful build will package the plugin onto `package` directory of the root of this repo. You may copy the "content" directory into the Steam Workshop directory to make it a testable local mod.
 
+## `External` directory
+
+Houses external plugins distributed alongside the plugins.
+
+- [BepInEx.ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager) (prebuilt binary, tag v16.3)
+
 ## `Tools` directory
 
 Tools for use in dev process.
