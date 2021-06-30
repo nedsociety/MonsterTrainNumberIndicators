@@ -1,6 +1,6 @@
 [TOC]
 
-# MonsterTrainUnofficialTranslation Source Code
+# MonsterTrainNumberIndicators Source Code
 
 ```
 Permission is hereby granted, without written agreement and without
