@@ -103,7 +103,13 @@ namespace MonsterTrainNumberIndicators
                 Traverse.Create(cardStatUpgradeVFX.GetComponent<CardStatUpgradeVFX>())
                 .Field("capacityUpgradeVFX").GetValue<List<GameObject>>()
             );
+            foreach (var oldCapacityUpgradeVFX in capacityUpgradeVFXList)
+            {
+                // Seems that they initially start as active
+                oldCapacityUpgradeVFX.SetActive(false);
+            }
             capacityUpgradeVFXList.Clear();
+            
             capacityUpgradeVFXList.Add(capacityUpgradeVFXObject.gameObject);
         }
 
