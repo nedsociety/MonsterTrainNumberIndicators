@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace MonsterTrainNumberIndicators
 {
-    [BepInEx.BepInPlugin("com.nedsociety.MonsterTrainNumberIndicators", "MonsterTrainNumberIndicators", "1.0.0.0")]
+    [BepInEx.BepInPlugin("com.nedsociety.monstertrainnumberindicators", "MonsterTrainNumberIndicators", "1.0.0.0")]
     public class MonsterTrainNumberIndicators : BepInEx.BaseUnityPlugin
     {
         public static MonsterTrainNumberIndicators Instance { get; private set; }
